@@ -1,0 +1,22 @@
+structure (TrainSchedule) {
+  description (Train Schedule)
+  property (searchDepartureStation) {
+    type (SearchDepartureStation)
+    min (Required)
+    max (One)
+  }
+  property (searchArrivalStation) {
+    type (SearchArrivalStation)
+    min (Required)
+    max (One)
+  }
+  property (trip) {
+    type (Trip)
+    min (Required) max (Many)
+  }
+  property(speech) {
+    type (Speech)
+    min (Required) max (One)
+  }
+}
+

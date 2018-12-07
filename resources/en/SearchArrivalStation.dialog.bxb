@@ -1,0 +1,6 @@
+dialog (Concept) {
+   match {
+     SearchArrivalStation (_)
+   }
+  template("Arrival Station")
+}

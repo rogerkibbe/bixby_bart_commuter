@@ -1,0 +1,63 @@
+layout {
+  match: TrainSchedule (ts)
+  mode (Details)
+  content {
+    section {
+      content {
+        title-area {
+          halign (Start)
+          slot1 {
+            text {
+              style (Title_XS)
+              value ("Depart: #{value(ts.searchDepartureStation)}") 
+            }
+          }
+          slot2 {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("Arrive: #{value(ts.searchArrivalStation)}")
+              }
+            }
+          }
+        }
+      }
+    }
+    section {
+      content {
+        single-line {
+          text {
+            value {
+              template ("_______________________________________")
+            }
+            style (Detail_L)
+          }
+        }
+        for-each (ts.trip) {
+          as (trip) {
+            for-each (trip.tripSteps) {
+              as (steps) {
+                single-line {
+                  text {
+                    value {
+                      template ("#{value(steps)}")
+                    }
+                    style (Detail_L)
+                  }
+                }
+              }
+            }
+            single-line {
+              text {
+                value {
+                  template ("_______________________________________")
+                }
+                style (Detail_L)
+              }
+            }
+          }
+        } 
+      }
+    }
+  }
+}

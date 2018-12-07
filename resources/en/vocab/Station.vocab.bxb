@@ -1,0 +1,50 @@
+vocab (Station) {
+  "12th St. Oakland City Center" {"12th St. Oakland City Center" "12th Street" "Oakland City Center" "12th"}
+  "16th St. Mission" {"16th St. Mission" "16th Street" "16th"}
+  "19th St. Oakland" {"19th St. Oakland" "19th Street" "19th"}
+  "24th St. Mission" {"24th St. Mission" "24th Street" "24th"}
+  "Antioch" {"Antioch"}
+  "Ashby" {"Ashby"}
+  "Balboa Park" {"Balboa Park"}
+  "Bay Fair" {"Bay Fair"}
+  "Castro Valley" {"Castro Valley"}
+  "Civic Center UN Plaza" {"Civic Center UN Plaza" "Civic Center" "UN Plaza"}
+  "Coliseum" {"Coliseum"}
+  "Colma" {"Colma"}
+  "Concord" {"Concord"}
+  "Daly City" {"Daly City"}
+  "Downtown Berkeley" {"Downtown Berkeley"}
+  "Dublin Pleasanton" {"Dublin Pleasanton" "Dublin" "Pleasanton"}
+  "El Cerrito del Norte" {"El Cerrito del Norte"}
+  "El Cerrito Plaza" {"El Cerrito Plaza"}
+  "Embarcadero" {"Embarcadero"}
+  "Fremont" {"Fremont"}
+  "Fruitvale" {"Fruitvale"}
+  "Glen Park" {"Glen Park"}
+  "Hayward" {"Hayward"}
+  "Lafayette" {"Lafayette"}
+  "Lake Merritt" {"Lake Merritt"}
+  "MacArthur" {"MacArthur"}
+  "Millbrae" {"Millbrae"}
+  "Montgomery St." {"Montgomery St." "Montgomery"}
+  "North Berkeley" {"North Berkeley"}
+  "North Concord Martinez" {"North Concord Martinez" "North Concord" "Martinez"}
+  "Oakland International Airport" {"Oakland International Airport" "Oakland Airport"}
+  "Orinda" {"Orinda"}
+  "Pittsburg Bay Point" {"Pittsburg Bay Point" "Pittsburg Bay Point" "Pittsburg" "Bay Point"}
+  "Pittsburg Center" {"Pittsburg Center"}
+  "Pleasant Hill Contra Costa Centre" {"Pleasant Hill Contra Costa Centre" "Pleasant Hill" "Contra Costa Center"}
+  "Powell St." {"Powell St." "Powell" "Powell Street"}
+  "Richmond" {"Richmond"}
+  "Rockridge" {"Rockridge"}
+  "San Bruno" {"San Bruno"}
+  "San Francisco Airport" {"San Francisco Airport" "SF Airport"}
+  "San Leandro" {"San Leandro"}
+  "South Hayward" {"South Hayward"}
+  "South San Francisco" {"South San Francisco"}
+  "Union City" {"Union City"}
+  "Walnut Creek" {"Walnut Creek"}
+  "Warm Springs South Fremont" {"Warm Springs South Fremont" "Warm Springs" "South Fremont"}
+  "West Dublin/Pleasanton" {"West Dublin/Pleasanton" "West Dublin" "Pleasanton"}
+  "West Oakland" {"West Oakland"}
+}

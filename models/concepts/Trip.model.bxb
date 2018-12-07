@@ -1,0 +1,8 @@
+structure (Trip) {
+  description (A Train Trip)
+  property (tripSteps) {
+    type (TripSteps)
+    min (Required)
+    max (Many)
+  }
+}

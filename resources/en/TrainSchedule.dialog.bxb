@@ -1,0 +1,7 @@
+dialog (Result) {
+  match: TrainSchedule (schedule) {
+    from-output: SearchForTrains (trainSchedule)
+  }
+  template("BART Schedule:")
+  {speech("${value(schedule.speech)}") }
+}

@@ -1,0 +1,15 @@
+action (SearchForTrains) {
+  type (Search)
+  description (Search for Trains)
+  collect {
+    input (searchDepartureStation) {
+      type (SearchDepartureStation)
+      min (Required) max (One)
+    }
+    input (searchArrivalStation) {
+      type (SearchArrivalStation)
+      min (Required) max (One)
+    }
+  }
+  output (TrainSchedule)
+}

@@ -1,0 +1,4 @@
+train (t-bie7vjlcgu9a15drh9rn9m8yt) {
+  utterance ("[g:SearchForTrains] When is the next BART from {[g:SearchDepartureStation] (Walnut Creek)[v:Station:'Walnut Creek']} to {[g:SearchArrivalStation] (Daly City)[v:Station:'Daly City']}")
+  plan (jYtLDsIwDESnkHIOVogN5QxIqBcIe2RSi0ZKk8okSNwe81tWxV54ZvwGK2zGQI+rpBK75kKSzy4NQ8kszUnIR+t67kpgbCc5yySub5O8CzfsZsiDiL9TsJmyTxH7GfzIo6ZF+FdYTxf+JmpUWGAJowqqP67Ca4wuvoTRtNar3yc=)
+}

@@ -1,0 +1,8 @@
+data:
+  aligned: >-
+    [g:playground.bart_commuter.SearchForTrains] When is the next BART train
+    from {[g:playground.bart_commuter.SearchDepartureStation]
+    (Ashby)[v:playground.bart_commuter.Station:Ashby]} to
+    {[g:playground.bart_commuter.SearchArrivalStation]
+    (Embarcadero)[v:playground.bart_commuter.Station:Embarcadero]}
+type: intent

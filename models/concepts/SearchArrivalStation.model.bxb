@@ -1,0 +1,4 @@
+enum (SearchArrivalStation) {
+  description (Train Arrival Station)
+  role-of (Station)
+}

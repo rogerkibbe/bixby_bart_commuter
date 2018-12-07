@@ -1,0 +1,8 @@
+capsule {
+  id (playground.bart_commuter)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+}

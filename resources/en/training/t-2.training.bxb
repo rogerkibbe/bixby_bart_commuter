@@ -1,0 +1,4 @@
+train (t-2zx8l2o9rs74ui1gqhjlorfle) {
+  utterance ("[g:SearchForTrains] When is the next BART from {[g:SearchDepartureStation] (Ashby)[v:Station:Ashby]} to {[g:SearchArrivalStation] (Concord)[v:Station:Concord]}")
+  plan (jYtLDsIwDESnkHIOVogN5QxIqBcIe2RSi0ZKk8okSNwe81tWxV54ZvwGK2zGQI+rpBK75kKSzy4NQ8kszUnIR+t67kpgbCc5yySub5O8CzfsZsiDiL9TsJmyTxH7GfzIo6ZF+FdYTxf+JmpUWGAJowqqP67Ca4wuvoTRtNar3yc=)
+}

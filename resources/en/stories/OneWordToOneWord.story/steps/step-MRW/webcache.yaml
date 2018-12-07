@@ -1,0 +1,21 @@
+- request:
+    headers:
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: GET
+    url: >-
+      http://api.bart.gov/api/sched.aspx?cmd=depart&orig=ASHB&dest=EMBR&date=now&b=0&json=y&key=QWB4-54DV-9G4T-DWE9
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Access-Control-Allow-Origin: '*'
+      Connection: close
+      Content-Length: '2429'
+      Content-Type: application/json; charset=utf-8
+      Date: 'Thu, 06 Dec 2018 22:49:03 GMT'
+      Expires: '-1'
+      X-AspNet-Version: 4.0.30319
+      X-Powered-By: ASP.NET
+    responseFilename: webcache/api.bart.gov-1-res.json
+    status: 200
