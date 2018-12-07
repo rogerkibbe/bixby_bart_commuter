@@ -1,5 +1,5 @@
 # bixby_bart_commuter
-Sample Bixby Capsule - BART Schedule
+Sample Bixby Capsule - BART Commuter Schedule
 
 Sample Capsule for Bixby. See article at [TO BE PUBLISHED] for more information
 
