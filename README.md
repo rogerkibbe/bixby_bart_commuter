@@ -9,3 +9,5 @@ Insructions:
 3) You may need to compile the NL model in training
 4) Ensure capsule is synced
 5) Enjoy!
+
+Note: The supporting directory contains an Excel spreadsheet I used to maintain the station data and synonyms and format them for the Bixby files
