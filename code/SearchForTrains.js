@@ -35,7 +35,7 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     });
   }
   catch(err) {
-    // Hack solution. Error messages are returned in XML not JSON despite json=y parameter sent
+    // Temp solution. Error messages are returned in XML not JSON despite json=y parameter sent
     // Proper solution would be to parse the XML, get the error message and send to the user.
     console.log("Error in BART API call");
     return null;
