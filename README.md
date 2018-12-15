@@ -1,7 +1,7 @@
 # bixby_bart_commuter
 Sample Bixby Capsule - BART Commuter Schedule
 
-Sample Capsule for Bixby. See article at [TO BE PUBLISHED] for more information
+Sample Capsule for Bixby. See article on VoiceBot - https://voicebot.ai/2018/12/15/how-to-build-a-samsung-bixby-capsule/ for more information
 
 Insructions:
 1) Download and unzip
