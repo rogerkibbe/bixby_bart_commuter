@@ -1,3 +1,5 @@
+"use strict";
+
 const BART_STATIONS = require("./bart_stations");
 const STATIONS = BART_STATIONS.STATIONS;
 const NUM_TRIPS = 2;
@@ -13,12 +15,12 @@ module.exports = {
 
 function searchForTrains(searchDepartureStation, searchArrivalStation) {
 
-  var depAbbr = stationNameToAbbr(searchDepartureStation);
-  var arrAbbr = stationNameToAbbr(searchArrivalStation);
+  let depAbbr = stationNameToAbbr(searchDepartureStation);
+  let arrAbbr = stationNameToAbbr(searchArrivalStation);
 
-  var endpoint = "http://api.bart.gov/api/sched.aspx";
+  let endpoint = "http://api.bart.gov/api/sched.aspx";
 
-  var query = {
+  let query = {
     cmd: "depart",
     orig: depAbbr,
     dest: arrAbbr,
@@ -35,25 +37,20 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     });
   }
   catch(err) {
-    // Temp solution. Error messages are returned in XML not JSON despite json=y parameter sent
+    // Temp workaround solution. Error messages are returned in XML not JSON despite json=y parameter sent
     // Proper solution would be to parse the XML, get the error message and send to the user.
     console.log("Error in BART API call");
     return null;
   }
 
-  // console.log ("response = " + JSON.stringify(response));
-  /*if (response.includes("<error>")) {
-     console.log("Error ");                    
-  }*/
-
-  var trips = [];
-  var speak = "The first train from " + searchDepartureStation + " to " + searchArrivalStation + " is the ";
+  let trips = [];
+  let speak = "The first train from " + searchDepartureStation + " to " + searchArrivalStation + " is the ";
 
   // Trips
-  for (var x = 0; x < response.root.schedule.request.trip.length; x++) {
+  for (let x = 0; x < response.root.schedule.request.trip.length; x++) {
 
-    var tripResp = response.root.schedule.request.trip[x];
-    var tripSteps = [];
+    let tripResp = response.root.schedule.request.trip[x];
+    let tripSteps = [];
 
     // If 
     if (x > 0) {
@@ -61,11 +58,11 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     }
 
     // legs
-    for (var y = 0; y < tripResp.leg.length; y++) {
-      var leg = tripResp.leg[y];
-      var headStation = stationAbbrToName(leg['@trainHeadStation']);
-      var originTime = leg['@origTimeMin'];
-      var destTime =  leg['@destTimeMin']
+    for (let y = 0; y < tripResp.leg.length; y++) {
+      let leg = tripResp.leg[y];
+      let headStation = stationAbbrToName(leg['@trainHeadStation']);
+      let originTime = leg['@origTimeMin'];
+      let destTime =  leg['@destTimeMin']
 
       // Create speech        
       if (y === 0) {
@@ -87,7 +84,7 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     }
 
     // trip object
-    var trip = {
+    let trip = {
       tripSteps: tripSteps
     }
 
@@ -96,7 +93,6 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     tripSteps = [];
 
     //console.log ("trainJourneys = " + JSON.stringify(trips));
-
   }
 
   return {
@@ -108,11 +104,11 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
 }
 
 function stationAbbrToName(abbr) {
-  var index = STATIONS.findIndex(p => p.abbr == abbr);
+  let index = STATIONS.findIndex(p => p.abbr == abbr);
   return STATIONS[index].name;
 }
 
 function stationNameToAbbr(name) {
-  var index = STATIONS.findIndex(p => p.name == name);
+  let index = STATIONS.findIndex(p => p.name == name);
   return STATIONS[index].abbr;
 }
