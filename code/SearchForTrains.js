@@ -60,7 +60,9 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
     // legs
     for (let y = 0; y < tripResp.leg.length; y++) {
       let leg = tripResp.leg[y];
-      let headStation = stationAbbrToName(leg['@trainHeadStation']);
+      let headStation = leg['@trainHeadStation'];
+      
+      
       let originTime = leg['@origTimeMin'];
       let destTime =  leg['@destTimeMin']
 
@@ -103,12 +105,12 @@ function searchForTrains(searchDepartureStation, searchArrivalStation) {
   }
 }
 
-function stationAbbrToName(abbr) {
-  let index = STATIONS.findIndex(p => p.abbr == abbr);
+function stationAbbrToName(abbr) {  
+  let index = STATIONS.findIndex(p => p.abbr == abbr);  
   return STATIONS[index].name;
 }
 
-function stationNameToAbbr(name) {
+function stationNameToAbbr(name) {  
   let index = STATIONS.findIndex(p => p.name == name);
   return STATIONS[index].abbr;
 }

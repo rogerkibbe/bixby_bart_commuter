@@ -29,7 +29,7 @@ vocab (Station) {
   "Montgomery St." {"Montgomery St." "Montgomery"}
   "North Berkeley" {"North Berkeley"}
   "North Concord Martinez" {"North Concord Martinez" "North Concord" "Martinez"}
-  "Oakland International Airport" {"Oakland International Airport" "Oakland Airport"}
+  "Oakland International Airport" {"Oakland International Airport" "Oakland Airport" "OAK"}
   "Orinda" {"Orinda"}
   "Pittsburg Bay Point" {"Pittsburg Bay Point" "Pittsburg Bay Point" "Pittsburg" "Bay Point"}
   "Pittsburg Center" {"Pittsburg Center"}
@@ -38,7 +38,7 @@ vocab (Station) {
   "Richmond" {"Richmond"}
   "Rockridge" {"Rockridge"}
   "San Bruno" {"San Bruno"}
-  "San Francisco Airport" {"San Francisco Airport" "SF Airport"}
+  "San Francisco International Airport" {"San Francisco Airport" "SF Airport", "SFO"}
   "San Leandro" {"San Leandro"}
   "South Hayward" {"South Hayward"}
   "South San Francisco" {"South San Francisco"}

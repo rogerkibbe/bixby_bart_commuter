@@ -39,7 +39,7 @@ enum (Station) {
   symbol(Richmond)
   symbol(Rockridge)
   symbol(San Bruno)
-  symbol(San Francisco Airport)
+  symbol(San Francisco International Airport)
   symbol(San Leandro)
   symbol(South Hayward)
   symbol(South San Francisco)

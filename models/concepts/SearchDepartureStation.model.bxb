@@ -1,5 +1,8 @@
 enum (SearchDepartureStation) {
   description (Train Departure Station)
+  features {
+    transient
+  }
   role-of (Station)
 }
 

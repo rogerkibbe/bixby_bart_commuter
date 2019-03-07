@@ -118,7 +118,7 @@ module.exports = {
       "name": "San Bruno",
       "abbr": "SBRN",
     }, {
-      "name": "San Francisco Airport",
+      "name": "San Francisco International Airport",
       "abbr": "SFIA",
     }, {
       "name": "San Leandro",
