@@ -4,7 +4,7 @@ Sample Bixby Capsule - BART Commuter Schedule
 Sample Capsule for Bixby. See article on VoiceBot - https://voicebot.ai/2018/12/15/how-to-build-a-samsung-bixby-capsule/ for more information
 
 Insructions:
-1) Download and unzip
+1) Download and unzip or clone
 2) From Bixby Studio, Open Capsule and select your unzip location
 3) You may need to compile the NL model in training
 4) Ensure capsule is synced
