@@ -5,4 +5,11 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
+  runtime-flags {
+    no-filtering-with-validation
+    modern-default-view-behavior 
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
 }

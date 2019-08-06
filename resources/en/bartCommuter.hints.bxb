@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (When is the next BART from Ashby to Concord)
+    utterance (When is the next BART from 12th Street to Embarcadero)
+    utterance (When is the next BART from Walnut Creek to Powell)
+  }
+}

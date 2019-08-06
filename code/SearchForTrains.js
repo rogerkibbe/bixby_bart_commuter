@@ -5,6 +5,9 @@ const STATIONS = BART_STATIONS.STATIONS;
 const NUM_TRIPS = 2;
 const TRIP_COUNTER_WORDS = ["first", "second"];  // If increase NUM_TRIPS, add to this
 
+var http = require ('http');
+var console = require ('console')
+
 // Public API key - change to your own key for production use.
 // See https://www.bart.gov/schedules/developers/api
 const BART_API_KEY = "MW9S-E7SL-26DU-VV8V";

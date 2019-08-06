@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (BART Commuter)
+  developer-name (Roger Kibbe)
+  icon-asset (/images/bart.jpeg)
+  description ("Sample Bixby Capsule - BART Commuter")
+  search-keywords {
+    keyword (BART)
+    keyword (schedule)
+  }
+  dispatch-name (BART Commuter)
+}
